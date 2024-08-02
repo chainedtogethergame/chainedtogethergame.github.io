@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Chained Together is an exhilarating online game that plunges you into the depths of hell, where you and your companions must navigate your way to freedom.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chained Together Game</title>
+    <link rel="icon" href="https://chainedtogethergame.github.io/favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="robots" content="index,follow">
+
+<script src="https://kit.fontawesome.com/b86c75542b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header id="header">
+    <a href="https://chainedtogethergame.github.io/" class="logo">
+        <img src="Chained-Together-logo.jpg" width="190" height="85" alt="Chained Together">
+    </a>
+    <div class="headwrap">
+        <div class="headtop">
+                <div class="search">
+                    <button type="button" class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                     <form action="#" method="get" id="formSearch">
+                       <input id="search" autocomplete="off" type="search" maxlength="50">
+                     </form>
+                    <ul id="results"></ul>
+                </div>
+                  <button type="button" class="icon-login"><i class="fa-regular fa-user"></i></button>
+        </div>
+        <nav>
+             <ul id="menu">
+                <li class="navover"><a href="https://chainedtogethergame.github.io/" class="border2">Chained Together Game</a></li>
+                <li class="navover"><a href="https://chainedtogethergame.github.io/chained-together-online-mobile.html" class="border3">Chained Together Online Mobile</a></li>
+                <li class="navover"><a href="https://chainedtogethergame.github.io/release-date.html" class="border4">Release Date</a></li>
+                <li class="navover"><a href="https://chainedtogethergame.github.io/codes.html" class="border5">Chained Together Codes</a></li>
+             </ul>
+        </nav>
+    </div>
+</header>
+<main id="main" data-cat="action">
+    <div class="main">
+    <div class="Hside">
+        <div id="bgame" class="border">
+        <div id="game" style="width:960px; height:610px;display:none;">
+            <iframe id="game-frame" src="a.html" data-url="https://chainedtogethergame.github.io/" allow="autoplay" scrolling="no" allowfullscreen=""></iframe>
+        </div>
+        <div id="loader" class="preview">
+            <div id="playGame">
+            <img src="logo_01.jpg" alt="Chained Together | chainedtogethergame.github.io" width="900" height="500" class="glow">
+            <div class="play">
+                <div class="playimg">
+                <img src="logo_002.jpg" alt="Chained Together | chainedtogethergame.github.io" width="190" height="190">
+                </div>
+                <div class="playBT" onclick="playGame()">
+                  <span style="font-size:23px">Play Now</span>
+                  <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="gamebar">
+            <div class="gameopt">
+            <button type="button" id="pad" onclick="ShowControl()" tooltip="Show controls">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.78 30">
+                <path d="M29.4 8.7c-.2-.2-4.6-.3-8-.3L21.1.3c-.4-.4-12-.4-12.5 0-.2.2-.3 4.6-.3 8.1-3.4 0-7.9.1-8 .3-.4.4-.4 12 0 12.6.2.2 4.6.3 8 .3 0 3.4.1 8 .3 8.1.4.4 12 .4 12.5 0 .2-.2.3-4.6.3-8.1 3.4 0 7.9-.1 8-.3.5-.5.5-12.2 0-12.6z" fill="#888"></path><path d="M18.7 5.9a22.29 22.29 0 0 0-4-4.1 31.08 31.08 0 0 0-4 4.1h8m-8 18.1a22.29 22.29 0 0 0 4 4.1 31.08 31.08 0 0 0 4-4.1c-2.7-.1-5.2-.1-8 0m13-5.1a22.29 22.29 0 0 0 4.1-4 31.08 31.08 0 0 0-4.1-4v8M5.7 11a22.29 22.29 0 0 0-4.1 4 31.08 31.08 0 0 0 4.1 4v-8m13.4 3.9a4.4 4.4 0 0 0-8.8 0 4.44 4.44 0 0 0 4.4 4.4 4.25 4.25 0 0 0 4.4-4.4" fill="#444"></path>
+                </svg>
+                <span>Controls</span>
+            </button>
+            <button type="button" class="report" tooltip="Report a bug" onclick="ShowPopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges">
+                <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path>
+                </svg>
+            </button>
+            </div>
+            <div class="gamesize">
+            <button type="button" class="resizing" tooltip="Fullscreen" id="full" onclick="showFullScreen()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 815.88 559.88" shape-rendering="crispEdges">
+                <path d="M49.98 399.92H0v159.96h179.96v-50H49.98V399.92zM0 159.96h49.98V49.98h129.98V0H0v159.96zM635.92 0v49.98H765.9v109.98h50V0H635.92zM765.9 509.9H635.92v50h179.96V399.92h-50V509.9z"></path>
+            </svg>
+            </button>
+            </div>
+            <div class="gamerate">
+            <div class="gamescore">100%</div>
+            </div>
+        </div>
+        </div>
+        <div class="control border" style="display: none;">
+                    :qwerrty: &nbsp;Move&nbsp;&nbsp;&nbsp; <span class="key kmoveclic"></span> &nbsp;Aim and Fire&nbsp;&nbsp;&nbsp; <span class="key kmaj"></span> &nbsp;Sprint&nbsp;&nbsp;&nbsp; <span class="key k">r</span> &nbsp;Reload&nbsp;&nbsp;&nbsp; <span class="key k">g</span> &nbsp;End of the mission
+        </div>
+
+        <div class="gameinfos border">
+            <div class="gameinfo">
+            <h1>Chained Together</h1>
+            <p id="desc" class="gamedesc">Chained Together is an exhilarating online game that plunges you into the depths of hell, where you and your companions must navigate your way to freedom. Bound by a chain, your mission is to climb as high as possible, overcoming a variety of challenges along the way. Each leap requires precise coordination, turning every step into a test of teamwork and skill. With multiple worlds to traverse, Chained Together offers a dynamic and engaging experience for players.</p>
+<h2>Exploring Diverse Worlds in Chained Together</h2>
+<p id="desc" class="gamedesc">In Chained Together, each world you encounter presents unique obstacles that keep the gameplay fresh and exciting. From fiery pits to icy platforms, no two stages are alike. The game's design ensures that players are constantly adapting to new environments, which keeps the adventure thrilling. Whether you choose to embark on this journey alone or with friends, the game scales to suit your needs, supporting local multiplayer for up to four players. The realistic chain physics add an extra layer of complexity, as the chain can wrap around platforms and affect your movements, demanding careful planning and coordination.</p>
+<h2>Mastering the Modes of Chained Together</h2>
+<p id="desc" class="gamedesc">Chained Together features three distinct game modes, catering to different skill levels and play styles.</p>
+<ul>
+<li>
+<p id="desc" class="gamedesc"><strong>Beginner Mode</strong>: This mode offers a helpful teleportation feature, allowing players to return to their highest reached point after a significant fall. It's perfect for those who are new to the game or want a less stressful experience.</p>
+</li>
+<li>
+<p id="desc" class="gamedesc"><strong>Normal Mode</strong>: In this mode, there is no safety net. A fall means starting over, which provides a fair but challenging experience. This mode is where your skills and patience will be truly tested.</p>
+</li>
+<li>
+<p id="desc" class="gamedesc"><strong>Lava Mode</strong>: For those seeking the ultimate challenge, Lava Mode requires you to climb quickly as lava rises from below. This intense mode demands both speed and precision, pushing players to their limits.</p>
+</li>
+</ul>
+<p id="desc" class="gamedesc">Leaderboards track your escape speeds, comparing completion times across different player configurations. Achievements are only valid in Normal and Lava modes, adding an extra layer of competition and replayability.</p>
+<h2>How to Play Chained Together with Friends</h2>
+<p id="desc" class="gamedesc">Playing Chained Together with friends amplifies the fun and challenge of the game. The local multiplayer mode supports up to four players, each linked by the same chain. Effective communication and teamwork are essential, as each player's movements affect the others. The chain's physics can either be a help or a hindrance, requiring players to synchronize their jumps and maneuvers. This cooperative gameplay makes for a highly engaging experience, where every victory feels hard-earned and every mistake is a lesson in coordination.</p>
+<p id="desc" class="gamedesc">Chained Together is more than just a game; it's a test of collaboration, strategy, and skill. Whether you're striving to top the leaderboards in Normal Mode or racing against the rising lava in Lava Mode, each playthrough offers a new challenge. The game's unique mechanics and diverse worlds ensure that players are always engaged and entertained. So, gather your friends, link up, and embark on this thrilling escape from hell.</p>
+
+                    </div>
+        </div>
+
+        <div class="content border">
+        <div class="homecat">
+            <div class="hometitle color0"><span>More Info</span></div>
+
+        </div>
+        <ul id="newlist" class="captions caphome" style="height: auto;">
+
+          <li class="caption">
+                <a href="https://chainedtogethergame.github.io/acid-farm.html"><img src="logo_02.jpg" width="190" height="190" alt="Chained Together Acid Farm">
+                  <div class="capinfos">
+                     <div class="captitle">Chained Together Acid Farm</div>
+                  </div>
+                </a>
+          </li>
+
+          <li class="caption">
+                <a href="https://chainedtogethergame.github.io/stardust-ore.html"><img src="logo_03.jpg" width="190" height="190" alt="Chained Together Stardust Ore">
+                  <div class="capinfos">
+                     <div class="captitle">Chained Together Stardust Ore</div>
+                  </div>
+                </a>
+          </li>
+
+          <li class="caption">
+                <a href="https://chainedtogethergame.github.io/move-base.html"><img src="logo_04.jpg" width="190" height="190" alt="Chained Together Move Base">
+                  <div class="capinfos">
+                     <div class="captitle">Chained Together Move Base</div>
+                  </div>
+                </a>
+          </li>
+
+          <li class="caption">
+                <a href="https://chainedtogethergame.github.io/chalk-peak.html"><img src="logo_05.jpg" width="190" height="190" alt="Chained Together Chalk Peak">
+                  <div class="capinfos">
+                     <div class="captitle">Chained Together Chalk Peak</div>
+                  </div>
+                </a>
+          </li>
+
+          <li class="caption">
+                <a href="https://chainedtogethergame.github.io/best-weapon.html"><img src="logo_06.jpg" width="190" height="190" alt="Chained Together Best Weapon">
+                  <div class="capinfos">
+                     <div class="captitle">Chained Together Best Weapon</div>
+                  </div>
+                </a>
+          </li>
+
+          <li class="caption">
+                <a href="https://chainedtogethergame.github.io/gold-ore.html"><img src="logo_07.jpg" width="190" height="190" alt="Chained Together Gold Ore">
+                  <div class="capinfos">
+                     <div class="captitle">Chained Together Gold Ore</div>
+                  </div>
+                </a>
+          </li>
+
+          <li class="caption">
+                <a href="https://chainedtogethergame.github.io/festering-gel.html"><img src="logo_08.jpg" width="190" height="190" alt="Festering Gel Chained Together">
+                  <div class="capinfos">
+                     <div class="captitle">Festering Gel Chained Together</div>
+                  </div>
+                </a>
+          </li>
+
+          <li class="caption">
+                <a href="https://chainedtogethergame.github.io/map-genie.html"><img src="logo_09.jpg" width="190" height="190" alt="Map Genie Chained Together">
+                  <div class="capinfos">
+                     <div class="captitle">Map Genie Chained Together</div>
+                  </div>
+                </a>
+          </li>
+
+        </ul>
+
+
+        </div>
+    </div>
+    <div class="Rside">
+
+        <div class="bestofnew op">Game News</div>
+        <ul id="newright">
+
+          <li class="capsim">
+             <a href="https://chainedtogethergame.github.io/map-genie.html">
+                 <img src="logo_09.jpg" width="160" height="160" alt="Map Genie Chained Together">
+             </a>
+          </li>
+
+          <li class="capsim">
+             <a href="https://chainedtogethergame.github.io/move-base.html">
+                 <img src="logo_04.jpg" width="160" height="160" alt="Chained Together Move Base">
+             </a>
+          </li>
+
+          <li class="capsim">
+             <a href="https://chainedtogethergame.github.io/gold-ore.html">
+                 <img src="logo_07.jpg" width="160" height="160" alt="Chained Together Gold Ore">
+             </a>
+          </li>
+
+          <li class="capsim">
+             <a href="https://chainedtogethergame.github.io/acid-farm.html">
+                 <img src="logo_02.jpg" width="160" height="160" alt="Chained Together Acid Farm">
+             </a>
+          </li>
+
+          <li class="capsim">
+             <a href="https://chainedtogethergame.github.io/festering-gel.html">
+                 <img src="logo_08.jpg" width="160" height="160" alt="Festering Gel Chained Together">
+             </a>
+          </li>
+
+          <li class="capsim">
+             <a href="https://chainedtogethergame.github.io/stardust-ore.html">
+                 <img src="logo_03.jpg" width="160" height="160" alt="Chained Together Stardust Ore">
+             </a>
+          </li>
+
+                </ul>
+
+
+
+    </div>
+    </div>
+    <div id="popup" style="display: none;height: 620px;">
+        <div id="popup-header">Report a bug<button type="" button="" class="icon-closed" onclick="HidePopup();"></button></div>
+        <div id="popup-content" style="height: 100%;">
+            <iframe src="viewform.html" width="640" height="510" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
+</main>
+  <script src="js-new.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+        //loadCat(document.querySelector('#main').dataset.cat);
+        loadNew();
+        loadIo();
+    })
+  </script>
+<footer id="footer">
+  <div id="copyright">
+    All Rights Reserved © 2024 chainedtogethergame.github.io
+
+
+  </div>
+
+</footer>
+
+
+
+
+</body></html>
